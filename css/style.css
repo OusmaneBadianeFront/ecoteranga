@@ -58,6 +58,7 @@ text-align: center;
 
 .form{
     margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 /* .formulaire{
@@ -71,10 +72,11 @@ text-align: center;
 
 .ctc-form{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;;
     column-gap: 3.8rem;
     row-gap: 2.4rem;
     justify-content: center;
+    margin-left: 3rem;
 }
 
 .ctc-form label
@@ -93,17 +95,8 @@ text-align: center;
     font-family: inherit; 
     border-radius: 9px;
     box-shadow: 0 1px 2px rgba(0, 0,0,0.15);
-    border: none;
+    width: 100%;
+    background-color: #FBFBFB;
+  
     
 }
-
-/* .ctc-form select{
-    padding: 1.2rem;
-    font-size: 1rem;
-    font-family: inherit;
-    width: 100%; 
-    border-radius: 9px;
-    box-shadow: 0 1px 2px rgba(0, 0,0,0.15);
-    
-
-} */

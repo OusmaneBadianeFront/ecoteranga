@@ -5,11 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
     <title>Ecoteranga</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header sticky">
+        <a class="Logo">  <span  style="color:green ;">Eco</span> Teranga</a>
 
+        <nav class="navigation">
+            <ul class="nav-items">
+                <li><a href="#home" class="nav-item">Home</a></li>
+                <li><a href="#section--3" class="nav-item">About Me</a></li>
+                <li><a href="#skills" class="nav-item">Skills</a></li>
+                <li><a href="#fields" class="nav-item">Fields</a></li>
+            </ul>
+           
+        </nav>
+
+        <button class="btn-mobile-nav">
+            <ion-icon name="menu-outline" class="icon-mobile-nav"></ion-icon>
+            <ion-icon name="close-outline" class="icon-mobile-nav"> </ion-icon>
+        </button>
 
     </header>
 
@@ -68,7 +84,7 @@
      <section class="form">
         
  
-         <div class="presentation grid-2">
+         <div class="presentation container grid-2">
              
              <div class="text-box">
                  <h2 class="contacts">Contact us</h2>
@@ -348,8 +364,10 @@
                             <option value="YE">Yemen</option>
                             <option value="ZM">Zambia</option>
                     </div>
-                
-                    <button>Envoyer</button>
+                    <div>
+                        <button>Envoyer message</button>
+                    </div>
+                    
                 </form>
                 
             </div>
