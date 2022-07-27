@@ -1,5 +1,5 @@
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trocchi', serif;
 }
 
 /* FIRST SECTION */
@@ -11,12 +11,15 @@ body{
 
 .heading-primary{
     font-size: 2.25rem;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 2.5rem;
     text-align: center;
     letter-spacing: .1em;
     margin-bottom: 3.8rem;
     margin-top: 3.8rem;
+    text-transform: uppercase;
+    padding-left: 2rem ;
+  
 }
 
 
@@ -25,6 +28,12 @@ body{
     margin-bottom: 2rem;
     letter-spacing: 1px;
     font-size: 1.5rem;
+}
+
+p{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
 }
 
 .heading-fourth{
@@ -40,18 +49,21 @@ text-align: center;
 }
 .grid-1{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     gap: 2rem;
 }
 
 .grid-2{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 1fr;
     gap: 2rem;
 }
 
 .img-pres{
     width: 100%;
+    align-items:center;
+    height: 25rem;
+   
 }
 
 
@@ -110,8 +122,37 @@ text-align: center;
 
 .section{
     margin-bottom: 5rem;
+    
 }
 
-#section--2{
-    background-color: lightgray;
+.hero{
+    margin-bottom: 5rem;
+}
+
+
+.icon{
+    height: 7rem;
+    width: 7rem;
+    color: green;
+
+}
+
+.heading-section{
+    
+    border-bottom: 6px solid green;
+    align-items: center;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.text-Start{
+    color: green;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.presentation{
+    margin-top: 5rem;
 }

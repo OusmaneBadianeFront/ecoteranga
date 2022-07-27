@@ -80,3 +80,12 @@
  
     color:#fbdf57; ;
 }
+
+
+.sticky{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    height: 5rem;
+}
