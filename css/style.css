@@ -1,0 +1,95 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* FIRST SECTION */
+  /*    font-size: 4 rem;  font-size: 1.5rem; font-size: 1.875rem;*/
+.section--1{
+    background-color: #FBFBFB;
+}
+
+.heading-primary{
+    font-size: 2.25rem;
+    font-weight: 300;
+    line-height: 2.5rem;
+    text-align: center;
+    letter-spacing: .1em;
+    margin-bottom: 3.8rem;
+    margin-top: 3.8rem;
+}
+
+
+.section--1_p{
+    text-align: center;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+.heading-fourth{
+font-size: 1.875rem;
+line-height: 2.25rem;
+color: green;
+text-align: center;
+}
+
+.container{
+    margin-right: 250px;
+    margin-left: 250px;
+}
+.grid-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+}
+
+.img-pres{
+    width: 100%;
+}
+
+
+/* Contact */
+
+.form{
+    margin-top: 4rem;
+}
+
+/* .formulaire{
+    display:
+
+} */
+
+.contacts{
+    text-align: right;
+}
+
+.ctc-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.8rem;
+    row-gap: 2.4rem;
+}
+
+.ctc-form label{
+    display: block;
+   font-size: 1.6rem;
+   font-weight: 300;
+   color: green;
+} 
+
+.ctc-form input{
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    width: 100%;
+    
+}
+
+.ctc-form select{
+}
