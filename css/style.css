@@ -4,8 +4,9 @@ body{
 
 /* FIRST SECTION */
   /*    font-size: 4 rem;  font-size: 1.5rem; font-size: 1.875rem;*/
-.section--1{
+#section--1{
     background-color: #FBFBFB;
+    margin-top: 5rem;
 }
 
 .heading-primary{
@@ -95,8 +96,22 @@ text-align: center;
     font-family: inherit; 
     border-radius: 9px;
     box-shadow: 0 1px 2px rgba(0, 0,0,0.15);
+
     width: 100%;
     background-color: #FBFBFB;
   
     
+}
+
+.section--hidden{
+    opacity: 0;
+    transform: translateY(80px);
+}
+
+.section{
+    margin-bottom: 5rem;
+}
+
+#section--2{
+    background-color: lightgray;
 }
